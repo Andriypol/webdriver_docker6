@@ -15,7 +15,7 @@ jobs:
 
     services:
       selenium-chrome:
-        image: selenium/standalone-firefox-chrome:4.18.1
+        image: selenium/standalone-firefox-chrome:latest
         ports: 
           - 4444:4444
 
