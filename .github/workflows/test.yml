@@ -19,7 +19,7 @@ jobs:
         ports: 
           - 4444:4444
         options: |
-          --shm-size="2g"
+          --shm-size=2g
 
     steps:
       - name: Checkout repository
