@@ -11,5 +11,12 @@
     "allure-commandline": "^2.32.2",
     "chromedriver": "^133.0.1",
     "wdio-chromedriver-service": "^8.1.1"
+  },
+  "scripts": {
+    "test": "wdio run wdio.conf.js",
+    "test:chrome": "wdio run wdio.chrome.conf.js",
+    "test:firefox": "wdio run wdio.firefox.conf.js",
+    "test:single": "wdio run wdio.conf.js --spec",
+    "test:all": "npm run test:chrome && npm run test:firefox"
   }
 }
