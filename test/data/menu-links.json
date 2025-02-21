@@ -1,0 +1,186 @@
+[
+    { 
+        "label": "Voice IA", 
+        "partialUrl": "/voice-ai" 
+    },
+    { 
+        "label": "Voice API", 
+        "partialUrl": "/products/voice-api" 
+    },
+    { 
+        "label": "Products", 
+        "partialUrl": "/products/texml" 
+    },
+    { 
+        "label": "Voice", 
+        "partialUrl": "/products/webrtc" 
+    },
+    {   
+        "label": "SIP Trunking", 
+        "partialUrl": "/products/sip-trunks" 
+    },
+    {   
+        "label": "SMS API", 
+        "partialUrl": "/products/sms-api" 
+    },
+    {   
+        "label": "MMS API", 
+        "partialUrl": "/products/mms-api" 
+    },
+    {   
+        "label": "Short Code", 
+        "partialUrl": "/products/sms-short-code" 
+    },
+    {   
+        "label": "10DLC", 
+        "partialUrl": "/products/10dlc-registration" 
+    },
+    {   
+        "label": "Alphanumeric Sender ID", 
+        "partialUrl": "/products/alphanumeric-sender-id" 
+    },
+    {   
+        "label": "Global Numbers", 
+        "partialUrl": "/products/phone-numbers" 
+    },
+    {   
+        "label": "Alphanumeric Sender ID", 
+        "partialUrl": "/products/alphanumeric-sender-id" 
+    },
+    {   
+        "label": "Toll-free Numbers", 
+        "partialUrl": "/products/toll-free-numbers" 
+    },
+    {   
+        "label": "Microsoft Teams", 
+        "partialUrl": "/products/enterprise-integrations-ms-teams" 
+    },
+    {   
+        "label": "Zoom Phone", 
+        "partialUrl": "/products/enterprise-integrations-zoom-phone" 
+    },
+    {   
+        "label": "Number Lookup API", 
+        "partialUrl": "/products/number-lookup" 
+    },
+    {   
+        "label": "Fax API", 
+        "partialUrl": "/products/fax-api" 
+    },
+    {   
+        "label": "Inference", 
+        "partialUrl": "/products/inference" 
+    },
+    {   
+        "label": "Storage", 
+        "partialUrl": "/products/cloud-storage" 
+    },
+    {   
+        "label": "Embeddings API", 
+        "partialUrl": "/products/embeddings-api" 
+    },
+    {   
+        "label": "Fine tuning and training", 
+        "partialUrl": "/products/fine-tuning-ai-models" 
+    },
+    {   
+        "label": "Flow", 
+        "partialUrl": "/flow" 
+    },
+    {   
+        "label": "IoT SIM Card", 
+        "partialUrl": "/products/iot-sim-card" 
+    },
+    {   
+        "label": "eSIM", 
+        "partialUrl": "/products/esim" 
+    },
+    {   
+        "label": "Programmble Networking", 
+        "partialUrl": "/products/programmable-networking" 
+    },
+    {   
+        "label": "Cloud VPN", 
+        "partialUrl": "/products/cloud-vpn" 
+    },
+    {   
+        "label": "Global Edge Router", 
+        "partialUrl": "/products/global-edge-router" 
+    },
+    {   
+        "label": "See all products", 
+        "partialUrl": "/products" 
+    },
+    {   
+        "label": "See all solutions", 
+        "partialUrl": "/solutions" 
+    },
+    {   
+        "label": "Healthcare", 
+        "partialUrl": "/solutions/healthcare" 
+    },
+    {   
+        "label": "AI/ML", 
+        "partialUrl": "/use-cases/ai-and-machine-learning" 
+    },
+    {   
+        "label": "Retail and e-commerce", 
+        "partialUrl": "/solutions/retail-and-ecommerce" 
+    },
+    {   
+        "label": "Travel and hospitality", 
+        "partialUrl": "/solutions/travel-and-hospitality" 
+    },
+    {   
+        "label": "Logistics", 
+        "partialUrl": "/solutions/logistics-and-transportation" 
+    },
+    {   
+        "label": "Financial services", 
+        "partialUrl": "/solutions/financial-services" 
+    },
+    {   
+        "label": "Pricing", 
+        "partialUrl": "/pricing" 
+    },
+    {   
+        "label": "See overview", 
+        "partialUrl": "/why-telnyx" 
+    },
+    {   
+        "label": "Our Network", 
+        "partialUrl": "/our-network" 
+    },
+    {   
+        "label": "Mission Control Portal", 
+        "partialUrl": "/mission-control" 
+    },
+    {   
+        "label": "Partners", 
+        "partialUrl": "/partnerships" 
+    },
+    {   
+        "label": "Customer Stories", 
+        "partialUrl": "/customer-stories" 
+    },
+    {   
+        "label": "Resource Center", 
+        "partialUrl": "/resources" 
+    },
+    {   
+        "label": "Support Center", 
+        "partialUrl": "https://support.telnyx.com/en/" 
+    },
+    {   
+        "label": "Dev Docs", 
+        "partialUrl": "https://developers.telnyx.com" 
+    },
+    {   
+        "label": "Dev Community", 
+        "partialUrl": "https://joinslack.telnyx.com/" 
+    },
+    {   
+        "label": "Integrations", 
+        "partialUrl": "https://marketplace.telnyx.com" 
+    }
+]
