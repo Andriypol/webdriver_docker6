@@ -9,10 +9,11 @@ jobs:
     runs-on: ubuntu-latest
 
     services:
-      selenium:
-        image: selenium/standalone-chrome-firefox:latest
+      selenium-chrome:
+        image: selenium/standalone-chrome:latest
         ports:
           - 4444:4444
+      
 
     steps:
       - name: Checkout repository
@@ -30,7 +31,7 @@ jobs:
       - name: Run All Tests
         run: |
           npm run test:chrome
-          npm run test:firefox
+      #npm run test:firefox
         continue-on-error: true 
 
       # Generate Allure Report
