@@ -45,7 +45,7 @@ async submitRegistrationForm() {
 }
 
 async verifySuccessfulRegistration() {
-    await expect(browser).toHaveUrl('/sign-up/verify-email');
+    await expect(browser).toHaveUrl('https://telnyx.com/sign-up/verify-email');
     await expect($(this.elements.verificationHeading)).toHaveText('One last step');
 }
 

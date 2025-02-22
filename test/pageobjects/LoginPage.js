@@ -55,7 +55,7 @@ async verifyFormVisible() {
 async verifySuccessfulLogin() {
     await this.verifyLoginPageUrl();
     const twoFactorMessage = await $(this.elements.twoFactorMessage);
-    await expect(twoFactorMessage).toHaveTextContaining('Secure your account with Two-Factor');
+    await expect(twoFactorMessage).toHaveText('Secure your account with Two-Factor');
 }
 
 async verifyInvalidCredentialsError() {

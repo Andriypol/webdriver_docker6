@@ -31,7 +31,7 @@ describe('Telnyx Sign-Up Functionality', () => {
         await SignUpPage.fillRegistrationForm(signupData.invalidCredentials);
         await SignUpPage.submitRegistrationForm();
         await SignUpPage.verifyErrorMessage(
-            'You cannot register using an email from this provider. Please register with a business email.'
+            'That email and password combination is not valid, or your browser could not be authenticated via recaptcha. Please try again.'
         );
     });
 });
