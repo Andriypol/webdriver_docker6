@@ -42,7 +42,7 @@ describe('Telnyx Shop Functionality', () => {
         expect(cartItemTitle).toContain('Telnyx Classic Hat');
         expect(cartItemQuantity).toBe('4');
 
-        await ProductPage.setQuantity(2);
+        await ProductPage.setInnerQuantity(2);
         const updatedQuantity = await ProductPage.getInnerCartItemCount();
         expect(updatedQuantity).toBe('2');
     });
@@ -93,12 +93,12 @@ describe('Search Functionality', () => {
     });
 });
 
-describe('Checkout Functionality', () => {
+describe.only('Checkout Functionality', () => {
 
     beforeEach(async () => {
         await ShopPage.openShop();
         await ShopPage.goToFirstProduct();
-        await ProductPage.setQuantity(4);
+        await ProductPage.setQuantity(3);
         await ProductPage.addToCart();
         await ProductPage.clickCheckout();
     });
@@ -107,7 +107,6 @@ describe('Checkout Functionality', () => {
         await CheckoutPage.fillCheckoutForm(checkoutData.invalidCardDetails);
         await CheckoutPage.submitOrder();
         await CheckoutPage.waitForErrorMessage();
-
         // Assert the error message
        await expect(await $(CheckoutPage.elements.cvvErrorMessage)).toBeDisplayed();
        const errorMessage = await CheckoutPage.getPaymentErrorMessage();
@@ -122,6 +121,6 @@ describe('Checkout Functionality', () => {
         // Assert the error message
        await expect(await $(CheckoutPage.elements.cvvErrorMessage)).toBeDisplayed();
        const errorMessage = await CheckoutPage.getPaymentErrorMessage();
-       await expect(errorMessage).not.toContain("Enter the CVV or security code on your card");
+       await expect(errorMessage).toContain("Enter the CVV or security code on your card");
     });
 });

@@ -5,7 +5,7 @@ class ProductPage {
         productTitle: 'h1', 
         productPrice: '.price--large', 
         productDescription: '.product__description', 
-        quantityInput: 'input.quantity__input:nth-child(2)', 
+        quantityInput: 'input.quantity__input:nth-child(2)',
         addToCartButton: '.product-form__submit',
         cartQuantity: '#Drawer-quantity-1', 
         cartProductName: '.cart-item__name', 
@@ -29,6 +29,10 @@ class ProductPage {
 
     async setQuantity(quantity) {
         await $(this.elements.quantityInput).setValue(quantity);
+    }
+    
+    async setInnerQuantity(quantity) {
+        await $(this.elements.cartQuantity).setValue(quantity);
     }
 
     async addToCart() {
