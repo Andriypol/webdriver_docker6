@@ -5,6 +5,9 @@ describe('Telnyx Homepage Load Test', () => {
     beforeEach(async () => {
         await HomePage.visit();
     });
+    afterEach(async () => {
+        await browser.reloadSession();
+    });
 
     it('should load the homepage successfully', async () => {
         await expect(browser).toHaveTitle('Telnyx - Global solutions for Communications, IOT, AI, Compute and Networking');

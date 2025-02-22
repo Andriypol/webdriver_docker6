@@ -5,7 +5,7 @@ class ProductPage {
         productTitle: 'h1', 
         productPrice: '.price--large', 
         productDescription: '.product__description', 
-        quantityInput: 'input.quantity__input:nth-child(2)',
+        quantityInput: 'input.quantity__input',
         addToCartButton: '.product-form__submit',
         cartQuantity: '#Drawer-quantity-1', 
         cartProductName: '.cart-item__name', 

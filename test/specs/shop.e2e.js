@@ -11,6 +11,9 @@ describe('Telnyx Shop Functionality', () => {
         await HomePage.visit();
         await HomePage.clickOnShop();
     });
+    afterEach(async () => {
+        await browser.reloadSession();
+    });
 
     it('Verify that the product details page displays correct product information', async () => {
         await ShopPage.goToFirstProduct();
@@ -66,6 +69,9 @@ describe('Search Functionality', () => {
         await ShopPage.openShop();
         await ShopPage.clickOnSearch();
     });
+    afterEach(async () => {
+        await browser.reloadSession();
+    });
 
     it('should return relevant search results for a valid query', async () => {
         const searchQuery = 'Hat';
@@ -101,6 +107,9 @@ describe('Checkout Functionality', () => {
         await ProductPage.setQuantity(3);
         await ProductPage.addToCart();
         await ProductPage.clickCheckout();
+    });
+    afterEach(async () => {
+        await browser.reloadSession();
     });
 
     it('should show error message for invalid card payment', async () => {

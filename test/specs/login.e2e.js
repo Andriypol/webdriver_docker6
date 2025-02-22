@@ -11,6 +11,9 @@ describe('Telnyx Log In Functionality', () => {
         await HomePage.visit();
         await HomePage.clickOnLogin();
     });
+    afterEach(async () => {
+        await browser.reloadSession();
+    });
 
     it('should display the login form', async () => {
         await LoginPage.verifyFormVisible();

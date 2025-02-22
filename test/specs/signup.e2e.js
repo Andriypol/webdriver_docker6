@@ -13,6 +13,9 @@ describe('Telnyx Sign-Up Functionality', () => {
         await HomePage.visit();
         await HomePage.navigateToSignUp();
     });
+    afterEach(async () => {
+        await browser.reloadSession();
+    });
 
     it('should display the registration form', async () => {
         await SignUpPage.verifyRegistrationFormVisible();
