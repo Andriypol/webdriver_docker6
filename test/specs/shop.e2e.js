@@ -93,7 +93,7 @@ describe('Search Functionality', () => {
     });
 });
 
-describe.only('Checkout Functionality', () => {
+describe('Checkout Functionality', () => {
 
     beforeEach(async () => {
         await ShopPage.openShop();
