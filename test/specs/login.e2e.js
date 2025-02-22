@@ -4,7 +4,7 @@ import { expect, browser, $, $$ } from '@wdio/globals';
 
 
 describe('Telnyx Log In Functionality', () => {
-    const email = "bars@yahoo.com";
+    const email = "bars22@yahoo.com";
     const password = "Password_123!";
 
     beforeEach(async () => {
