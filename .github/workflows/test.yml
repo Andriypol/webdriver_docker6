@@ -15,7 +15,7 @@ jobs:
 
     services:
       selenium-chrome:
-        image: selenium/standalone-firefox-chrome:latest
+        image: andriip1315/webdriverio-chrome-firefox
         ports: 
           - 4444:4444
 
@@ -35,7 +35,6 @@ jobs:
       - name: Run All Tests
         run: |
           npm run test:chrome
-      #npm run test:firefox
         continue-on-error: true 
 
       # Generate Allure Report
