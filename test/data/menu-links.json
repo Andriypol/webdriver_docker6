@@ -1,171 +1,171 @@
 [
     { 
         "label": "Voice IA", 
-        "partialUrl": "https://telnyx.com/voice-ai" 
+        "partialUrl": "/voice-ai" 
     },
     { 
         "label": "Voice API", 
-        "partialUrl": "https://telnyx.com/products/voice-api" 
+        "partialUrl": "/products/voice-api" 
     },
     { 
         "label": "Products", 
-        "partialUrl": "https://telnyx.com/products/texml" 
+        "partialUrl": "/products/texml" 
     },
     { 
         "label": "Voice", 
-        "partialUrl": "https://telnyx.com/products/webrtc" 
+        "partialUrl": "/products/webrtc" 
     },
     {   
         "label": "SIP Trunking", 
-        "partialUrl": "https://telnyx.com/products/sip-trunks" 
+        "partialUrl": "/products/sip-trunks" 
     },
     {   
         "label": "SMS API", 
-        "partialUrl": "https://telnyx.com/products/sms-api" 
+        "partialUrl": "/products/sms-api" 
     },
     {   
         "label": "MMS API", 
-        "partialUrl": "https://telnyx.com/products/mms-api" 
+        "partialUrl": "/products/mms-api" 
     },
     {   
         "label": "Short Code", 
-        "partialUrl": "https://telnyx.com/products/sms-short-code" 
+        "partialUrl": "/products/sms-short-code" 
     },
     {   
         "label": "10DLC", 
-        "partialUrl": "https://telnyx.com/products/10dlc-registration" 
+        "partialUrl": "/products/10dlc-registration" 
     },
     {   
         "label": "Alphanumeric Sender ID", 
-        "partialUrl": "https://telnyx.com/products/alphanumeric-sender-id" 
+        "partialUrl": "/products/alphanumeric-sender-id" 
     },
     {   
         "label": "Global Numbers", 
-        "partialUrl": "https://telnyx.com/products/phone-numbers" 
+        "partialUrl": "/products/phone-numbers" 
     },
     {   
         "label": "Alphanumeric Sender ID", 
-        "partialUrl": "https://telnyx.com/products/alphanumeric-sender-id" 
+        "partialUrl": "/products/alphanumeric-sender-id" 
     },
     {   
         "label": "Toll-free Numbers", 
-        "partialUrl": "https://telnyx.com/products/toll-free-numbers" 
+        "partialUrl": "/products/toll-free-numbers" 
     },
     {   
         "label": "Microsoft Teams", 
-        "partialUrl": "https://telnyx.com/products/enterprise-integrations-ms-teams" 
+        "partialUrl": "/products/enterprise-integrations-ms-teams" 
     },
     {   
         "label": "Zoom Phone", 
-        "partialUrl": "https://telnyx.com/products/enterprise-integrations-zoom-phone" 
+        "partialUrl": "/products/enterprise-integrations-zoom-phone" 
     },
     {   
         "label": "Number Lookup API", 
-        "partialUrl": "https://telnyx.com/products/number-lookup" 
+        "partialUrl": "/products/number-lookup" 
     },
     {   
         "label": "Fax API", 
-        "partialUrl": "https://telnyx.com/products/fax-api" 
+        "partialUrl": "/products/fax-api" 
     },
     {   
         "label": "Inference", 
-        "partialUrl": "https://telnyx.com/products/inference" 
+        "partialUrl": "/products/inference" 
     },
     {   
         "label": "Storage", 
-        "partialUrl": "https://telnyx.com/products/cloud-storage" 
+        "partialUrl": "/products/cloud-storage" 
     },
     {   
         "label": "Embeddings API", 
-        "partialUrl": "https://telnyx.com/products/embeddings-api" 
+        "partialUrl": "/products/embeddings-api" 
     },
     {   
         "label": "Fine tuning and training", 
-        "partialUrl": "https://telnyx.com/products/fine-tuning-ai-models" 
+        "partialUrl": "/products/fine-tuning-ai-models" 
     },
     {   
         "label": "Flow", 
-        "partialUrl": "https://telnyx.com/flow" 
+        "partialUrl": "/flow" 
     },
     {   
         "label": "IoT SIM Card", 
-        "partialUrl": "https://telnyx.com/products/iot-sim-card" 
+        "partialUrl": "/products/iot-sim-card" 
     },
     {   
         "label": "eSIM", 
-        "partialUrl": "https://telnyx.com/products/esim" 
+        "partialUrl": "/products/esim" 
     },
     {   
         "label": "Programmble Networking", 
-        "partialUrl": "https://telnyx.com/products/programmable-networking" 
+        "partialUrl": "/products/programmable-networking" 
     },
     {   
         "label": "Cloud VPN", 
-        "partialUrl": "https://telnyx.com/products/cloud-vpn" 
+        "partialUrl": "/products/cloud-vpn" 
     },
     {   
         "label": "Global Edge Router", 
-        "partialUrl": "https://telnyx.com/products/global-edge-router" 
+        "partialUrl": "/products/global-edge-router" 
     },
     {   
         "label": "See all products", 
-        "partialUrl": "https://telnyx.com/products" 
+        "partialUrl": "/products" 
     },
     {   
         "label": "See all solutions", 
-        "partialUrl": "https://telnyx.com/solutions" 
+        "partialUrl": "/solutions" 
     },
     {   
         "label": "Healthcare", 
-        "partialUrl": "https://telnyx.com/solutions/healthcare" 
+        "partialUrl": "/solutions/healthcare" 
     },
     {   
         "label": "AI/ML", 
-        "partialUrl": "https://telnyx.com/use-cases/ai-and-machine-learning" 
+        "partialUrl": "/use-cases/ai-and-machine-learning" 
     },
     {   
         "label": "Retail and e-commerce", 
-        "partialUrl": "https://telnyx.com/solutions/retail-and-ecommerce" 
+        "partialUrl": "/solutions/retail-and-ecommerce" 
     },
     {   
         "label": "Travel and hospitality", 
-        "partialUrl": "https://telnyx.com/solutions/travel-and-hospitality" 
+        "partialUrl": "/solutions/travel-and-hospitality" 
     },
     {   
         "label": "Logistics", 
-        "partialUrl": "https://telnyx.com/solutions/logistics-and-transportation" 
+        "partialUrl": "/solutions/logistics-and-transportation" 
     },
     {   
         "label": "Financial services", 
-        "partialUrl": "https://telnyx.com/solutions/financial-services" 
+        "partialUrl": "/solutions/financial-services" 
     },
     {   
         "label": "Pricing", 
-        "partialUrl": "https://telnyx.com/pricing" 
+        "partialUrl": "/pricing" 
     },
     {   
         "label": "See overview", 
-        "partialUrl": "https://telnyx.com/why-telnyx" 
+        "partialUrl": "/why-telnyx" 
     },
     {   
         "label": "Our Network", 
-        "partialUrl": "https://telnyx.com/our-network" 
+        "partialUrl": "/our-network" 
     },
     {   
         "label": "Mission Control Portal", 
-        "partialUrl": "https://telnyx.com/mission-control" 
+        "partialUrl": "/mission-control" 
     },
     {   
         "label": "Partners", 
-        "partialUrl": "https://telnyx.com/partnerships" 
+        "partialUrl": "/partnerships" 
     },
     {   
         "label": "Customer Stories", 
-        "partialUrl": "https://telnyx.com/customer-stories" 
+        "partialUrl": "/customer-stories" 
     },
     {   
         "label": "Resource Center", 
-        "partialUrl": "https://telnyx.com/resources" 
+        "partialUrl": "/resources" 
     },
     {   
         "label": "Support Center", 
