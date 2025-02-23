@@ -6,10 +6,9 @@ export const firefoxConfig = {
         maxInstances: 2,
         browserName: 'firefox',
         'moz:firefoxOptions': {
-            args: ['--headless', '--disable-gpu', '--window-size=1920,1080', '--no-sandbox'],
+            args: ['--headless', '--disable-gpu', '--window-size=1920,1080', '--no-sandbox', '--disable-dev-shm-usage'],
         },
     }],
-    services: ['geckodriver'], 
 };
 
-exports.config = firefoxConfig;
+export { firefoxConfig as config };
